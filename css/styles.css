@@ -8,13 +8,13 @@ body {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 4.5vw;
   padding-bottom: 6%;
 }
 
 h2 {
-  font-size: 3vw;
-  padding-bottom: 1%;
+  font-size: 2.25vw;
+  padding-bottom: 3%;
 }
 
 .wrapper {
@@ -48,10 +48,10 @@ h2 {
 /* Section for mobile */
 section {
   display: block;
-  width: 25%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 5%;
-  border-radius: 10%;
+  border-radius: 5%;
   transition-property: box-shadow;
   transition-duration: 0.3s;
   transition-timing-function: linear;
@@ -62,11 +62,20 @@ section:hover {
 }
 
 section img {
-  width: 80%;
+  width: 30%;
+  display: inline-block;
+}
+
+section h2 {
+  width: 65%;
+  display: inline-block;
+  margin-top: 13%;
+  font-size: 7vw;
+  vertical-align: top;
 }
 
 .icon {
-  margin-bottom: 20px;
+  margin: 10px auto;
 }
 
 a {
@@ -85,6 +94,7 @@ a {
     display: inline-block;
     width: 25%;
     margin: auto 0;
+    margin-top: 1%;
   }
 
   .header_right {
@@ -93,12 +103,26 @@ a {
     height: 80%;
     vertical-align: top;
     padding-top: 3%;
+    margin-left: 75px;
   }
+
   section {
     display: inline-block;
     width: 25%;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 0%;
+  }
+
+  section img {
+    width: 80%;
+    display: block;
+  }
+
+  section h2 {
+    margin-top: 0%;
+    font-size: 3vw;
+    display: block;
+    margin: 0 auto;
   }
 }
