@@ -1,137 +1,137 @@
 
+.header {
+	background-color: #030905;
+	color: #FFFFFF;
+}
+
+.primary {
+	background-color: #0A2014;
+}
+
+.primary-neutral {
+	background-color: #0b2618;
+}
+
+.secondary {
+	background-color: #36b170;
+}
+
 body {
-  background-color: #8a8988;
-  margin: 5%;
-  color: #FFFFFF;
-  text-align: center;
-  font-family: Georgia;
+	color: #E7DFDD;
+	background-color: #0A2014;
 }
 
-h1 {
-  font-size: 7vw;
-  padding-bottom: 1%;
+p {
+	margin-bottom: 0.5rem;
 }
 
-h2 {
-  font-size: 4vw;
-  padding: 5% 5% 1.5% 5%;
+.card {
+	color: #030905;
 }
 
-.wrapper {
-  display: block;
-  background-color: #00274C;
-  padding: 3%;
-  height: 60%;
-  box-shadow: -20px 30px 40px #000000;
+.list-group-item {
+	padding: 0.1rem 0.5rem;
 }
 
-/* Headers on mobile */
-.header_left {
-  width: 38vw;
-  margin: 0 auto;
+.col-md-3, .col-md-6 {
+	padding-right: 0px;
 }
 
-.header_right {
-  width: 80vw;
-  margin: 0 auto;
-  padding-top: 5%;
-  padding-bottom: 3%;
+th, td {
+  border-bottom: 1px solid #ddd;
 }
 
-.social {
-  display: block;
-  height: 45%;
-  margin: 5%;
-  padding-top: 5%;
+.playlists-button {
+	margin-top: 10px;
 }
 
-/* Section for mobile */
-section {
-  display: block;
-  width: 85%;
-  margin: 0 auto;
-  margin-bottom: 5%;
-  border-radius: 5%;
-  transition-property: box-shadow;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
+#loading-overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 
-section:hover {
-  box-shadow: -9px 12px 20px #000000;
+tr:hover {
+	background-color: rgb(11,38,24, 0.1);
 }
 
-section img {
-  width: 30%;
-  display: inline-block;
+.period {
+
 }
 
-section h2 {
-  width: 65%;
-  display: inline-block;
-  margin-top: 13%;
-  font-size: 7vw;
-  vertical-align: top;
-  padding: 0%;
+.feature-sliders label, .feature-sliders p {
+	display: inline;
 }
 
-.icon {
-  margin: 10px auto;
+.feature-sliders p {
+	float: right;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
+.slide {
+	margin-bottom: 1rem;
 }
 
-.profile_pic {
-  border-radius: 50%;
+.star_container {
+	text-align: center;
 }
 
+.star  {
+	width: 1.7rem;
+}
 
-/* Changes for desktop */
-@media screen and (min-width: 850px) {
-  h1 {
-    font-size: 4.5vw;
-  }
+.star:hover {
+	box-shadow: -1px 2px 4px #000000;
+}
 
-  h2 {
-    font-size: 2.25vw;
-  }
+.key-tracks {
+	margin-bottom: 25px;
+}
 
-  .header_left {
-    display: inline-block;
-    width: 25%;
-    margin: auto 0;
-    margin-top: 1%;
-  }
+.icons {
+	padding: 0;
+	margin: 0;
+}
 
-  .header_right {
-    display: inline-block;
-    width: 60%;
-    height: 80%;
-    vertical-align: top;
-    padding-top: 3%;
-    margin-left: 75px;
-  }
+.track {
+	width: 18%;
+	display: inline;
+	margin: 0 auto;
+}
 
-  section {
-    display: inline-block;
-    width: 25%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 0%;
-  }
+.track-icon {
+	width: 100%;
+	border-radius: 5px;
+}
 
-  section img {
-    width: 80%;
-    display: block;
-  }
+.detail {
+	margin-top: 15px;
+	width: 100%;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: rgb(200, 200, 200);
+}
 
-  section h2 {
-    margin-top: 0%;
-    font-size: 3vw;
-    display: block;
-    margin: 0 auto;
-  }
+.detail-blurb {
+	vertical-align: center;
+}
+
+.detail-blurb p {
+	margin-bottom: 0;
+}
+
+.track-detail {
+	display: none;
+	vertical-align: center;
+}
+
+#key-artist, #key-album {
+	margin-bottom: 2px;
 }
