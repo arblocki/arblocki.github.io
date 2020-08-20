@@ -1,45 +1,104 @@
-
 <!DOCTYPE html>
-
 <html>
+
 <head>
-	<title>Andrew Blocki</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-  	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Andrew Blocki</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
 <body>
-	<div class="wrapper">
-		<div class="header_left">
-			<img class="profile_pic" src="images/linkedin.jpg">
-		</div>
-
-		<div class="header_right">
-			<h1 class="name">Andrew Blocki</h1>
-			<h2 class="subtitle">Computer Science Major at the University of Michigan</h2>
-			<h2 class="interests">Interested in Web Development, Databases, and PC Building</h2>
-		</div>
-	</div>
-
-	<div class="gradient_bar">
-
-	</div>
-
-	<div class="social">
-		<section>
-			<a href="files/Resume.pdf" target="_blank"><img class="icon" src="images/doc_logo.png"></a>
-			<a href="files/Resume.pdf" target="_blank"><h2 class="text_link">Resume</h2></a>
-		</section>
-
-		<section>
-			<a href="https://www.linkedin.com/in/andrewblocki/" target="_blank"><img class="icon" src="images/LinkedIn_logo.png"></a>
-			<a href="https://www.linkedin.com/in/andrewblocki/" target="_blank"><h2 class="text_link">LinkedIn</h2></a>
-		</section>
-
-		<section>
-			<a href="https://github.com/arblocki" target="_blank"><img class="icon" src="images/github_logo.png"></a>
-			<a href="https://github.com/arblocki" target="_blank"><h2 class="text_link">GitHub</h2></a>
-		</section>
-
-	</div>
-
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Andrew Blocki</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div><img class="avatar" src="assets/img/avatars/newyears_cropped.jpg" style="/*width: auto;*/"></div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="about-me">
+                            <h1>Andrew Blocki</h1>
+                            <p>Hello! I am a Software Engineer interested in Machine Learning and Full-Stack Web Development. In my spare time, I enjoy collecting vinyl records and watching sports.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block photography">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/homepage/breck.png" style="transform: scale(1.1);"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/homepage/wisconsin.png" style="transform: scale(1.1);"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/homepage/vail.png" style="transform: scale(1.1);"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2>Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Development</h3>
+                                <p class="card-text">Professional internship experience in ReactJS, Redux, and Spring backend.&nbsp;</p>
+                                <p class="card-text">Personally developed web apps in PHP, jQuery, Bootstrap, MERN stack (MongoDB, Express, ReactJS, Node.js)</p>
+                                <p class="card-text">Personally developed web apps in PHP and MERN stack (MongoDB, Express, ReactJS, Node.js)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Machine Learning</h3>
+                                <p class="card-text">Developed (and always improving on) neural network model to project NBA final scores and make predictions against the point spread</p>
+                                <p class="card-text">Formal introductory coursework in machine learning at University of Michigan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Object-Oriented Programming</h3>
+                                <p class="card-text">Rock-solid fundamentals of object-oriented programming in C++ and a bit of Java</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="index.html">About me</a><a href="resume.html#contact-me">Contact me</a><a href="projects.html">Projects</a></div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
+
+</html>
