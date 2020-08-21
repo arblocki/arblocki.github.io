@@ -9,3 +9,7 @@ a {
   margin-bottom: 35px;
 }
 
+.home-image {
+	transform: scale(1.1);
+}
+
